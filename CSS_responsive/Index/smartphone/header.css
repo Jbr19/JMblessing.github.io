@@ -1,0 +1,43 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /**************
+      header
+      **********/
+
+      header {
+        width: 100%;
+        background-color: var(--palepink);
+        display: flex;
+    }
+
+    header a {
+        color: var(--lite);
+    }
+
+    header a:hover {
+        color: var(--black);
+    }
+
+    header span .fa {
+        margin: 0 5px;
+    }
+
+    header .btn1 {
+        padding: 5px 10px !important;
+    }
+
+    header section {
+        padding: 0.5rem 0rem;
+        width: 100%;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header section span {
+        padding: 0 2px;
+        text-align: center;
+        white-space: nowrap;
+    }
+};

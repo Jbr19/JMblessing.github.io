@@ -1,0 +1,76 @@
+.section2 {
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    position: relative;
+    padding: 2em;
+}
+
+.section2_form {
+    background-color: var(--white);
+    box-shadow: 10px 10px 0px 0px var(--rose);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--rose);
+    border-radius: 0px 0px 0px 0px;
+    padding: 25px 50px;
+    display: block;
+    transition: 0.5s;
+    width: 42rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.info1{
+    padding: 7px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#info_cuadro {
+    width: 22rem;
+    height: 5px;
+    box-shadow: 1px 1px 0px 0px var(--rose);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--rose);
+    border-radius: 0px 0px 0px 0px;
+    padding: 14px 50px;
+    display: block;
+    transition: 0.5s;
+}
+
+#cuadro_coment {
+    height: 5px;
+    box-shadow: 1px 1px 0px 0px var(--rose);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--rose);
+    border-radius: 0px 0px 0px 0px;
+    padding: 14px 50px;
+    display: block;
+    transition: 0.5s;
+    height: 11rem;
+}
+
+#marquet{
+    padding: 7px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#boton_envio {
+    width: 22rem;
+    height: 5px;
+    box-shadow: 10px 10px 0px 0px var(--rose);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--rose);
+    border-radius: 0px 0px 0px 0px;
+    padding: 25px 50px;
+    display: block;
+    transition: 0.5s;
+}

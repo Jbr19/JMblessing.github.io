@@ -1,0 +1,32 @@
+/**************
+formulario
+**************/
+.section2 {
+    display: block;
+    padding: 8px;
+}
+
+.section2_form {
+    width: 21rem;
+}
+
+#info_cuadro {
+    width: 16rem;
+}
+
+#cuadro_coment {
+    width: 281px;
+}
+
+#boton_envio {
+    width: 14rem;
+}
+
+#marquet {
+    padding: 3px;
+    font-size: 15px;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}

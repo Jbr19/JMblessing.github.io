@@ -1,0 +1,40 @@
+.section6 {
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.section6 section {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    width: 100%;
+}
+
+.section6 span {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.section6 span:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+    width: 2px;
+    height: 40%;
+    background-color: var(--palepink);
+}
+
+.section6 span img {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+}
+
+.section6 span p {
+    color: var(--lite);
+    font-weight: 300;
+};

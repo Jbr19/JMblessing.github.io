@@ -1,0 +1,44 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /***************************
+              HEADER
+    ***************************/
+    header {
+        width: 100%;
+        background-color: var(--palepink);
+        display: flex;
+    }
+
+    header a {
+        color: var(--lite);
+    }
+
+    header a:hover {
+        color: var(--black);
+    }
+
+    header section {
+        width: 100%;
+        padding: 0.5rem 2rem;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header section span {
+        padding: 0 1rem;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+
+    header span .fa {
+        margin: 0 5px;
+    }
+
+    header .btn1 {
+        padding: 5px 10px !important;
+    }
+
+};

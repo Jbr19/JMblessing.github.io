@@ -1,0 +1,28 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /*******************
+    main
+    *****************/
+
+    main {
+        background-image: url("/pics/background\ reducido.jpeg");
+        height: 47vh;
+        flex-wrap: wrap;
+        padding: 8rem 0;
+    }
+
+    main:after {
+        content: "";
+        background-size: cover;
+    }
+
+    main section {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    main section em {
+        font-size: 1.5em;
+    }
+
+};
