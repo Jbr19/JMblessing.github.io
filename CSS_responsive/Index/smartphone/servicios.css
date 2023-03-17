@@ -1,0 +1,12 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .servicios{
+        flex-wrap: wrap;
+    }
+    
+    .servicios section span {
+        width: 19rem;
+    }
+
+}

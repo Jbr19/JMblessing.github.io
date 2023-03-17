@@ -28,36 +28,3 @@
         color: var(--black);
         font-weight: 200;
     }
-    
-    .btn1 {
-        font-size: 14px;
-        text-transform: uppercase;
-        letter-spacing: 0.8px;
-        color: var(--rose);
-        background-color: var(--white);
-        box-shadow: 4px 4px 0px 0px var(--rose);
-        border-style: solid;
-        border-width: 1px 1px 1px 1px;
-        border-color: var(--rose);
-        border-radius: 0px 0px 0px 0px;
-        padding: 25px 50px;
-    }
-    
-    .btn1:hover {
-        background-color: var(--black);
-        color: var(--white);
-        box-shadow: 6px 6px 0px 0px #BAD7DF;
-    }
-    
-    @media (max-width:1000px) {
-        .title {
-            font-size: 1.5em;
-        }
-    
-        .btn1 {
-            padding: 15px 25px;
-            display: block;
-            width: 180px;
-            text-align: center;
-        }
-    };

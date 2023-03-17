@@ -1,0 +1,41 @@
+/***************************
+              SECTION3
+    ***************************/
+    .section3 {
+        width: 100%;
+        padding: 0rem 3rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    .section3 section {
+        position: relative;
+        padding: 2rem;
+    }
+    
+    .section3 section img {
+        width: 100%;
+    }
+    
+    .section3 section span {
+        background-color: var(--white);
+        box-shadow: 10px 10px 0px 0px var(--rose);
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: var(--rose);
+        border-radius: 0px 0px 0px 0px;
+        padding: 25px 50px;
+        display: block;
+        transition: 0.5s;
+    }
+    
+    .section3 section span .title {
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+    
+    .section3 section span p {
+        color: var(--lite);
+        line-height: 1.6em;
+        font-weight: 300;
+    };

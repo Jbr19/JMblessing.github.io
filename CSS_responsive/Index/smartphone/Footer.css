@@ -1,0 +1,36 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .top_header {
+        padding: 1rem;
+        display: block;
+    }
+
+    .top_header section {
+        width: 100%;
+        margin: 40px 0;
+        align-items: left;
+        justify-content: left;
+    }
+
+    footer .bottom_content section {
+        padding: 1rem;
+        display: block;
+        display: flex;
+    }
+
+    footer .bottom_content section a {
+        padding: 1rem;
+        font-size: 12px;
+        margin: 0 5px;
+        display: inline-block;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    footer .bottom_content section {
+        display: flex;
+    }
+}

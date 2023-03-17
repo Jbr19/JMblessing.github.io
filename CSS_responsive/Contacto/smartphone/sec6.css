@@ -1,0 +1,24 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .section6 section {
+        flex-wrap: wrap;
+    }
+
+    .section6 span {
+        width: 100%;
+        padding: 0.5rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .section6 span img {
+        margin: 0;
+        margin-right: 5px;
+        width: 60px;
+    }
+
+    .section6 span:after {
+        display: none;
+    }
+}

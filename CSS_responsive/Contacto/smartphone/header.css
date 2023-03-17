@@ -4,7 +4,7 @@
       header
       **********/
 
-      header {
+    header {
         width: 100%;
         background-color: var(--palepink);
         display: flex;
@@ -27,7 +27,7 @@
     }
 
     header section {
-        padding: 0.5rem 0rem;
+        padding: 0.5rem 2rem;
         width: 100%;
         font-size: 14px;
         display: flex;
@@ -40,4 +40,51 @@
         text-align: center;
         white-space: nowrap;
     }
-};
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+    /**************
+      header
+      **********/
+
+    header {
+        width: 100%;
+        background-color: var(--palepink);
+        display: flex;
+    }
+
+    header a {
+        color: var(--lite);
+    }
+
+    header a:hover {
+        color: var(--black);
+    }
+
+    header span .fa {
+        margin: 0 5px;
+    }
+
+    header .btn1 {
+        padding: 5px 10px !important;
+    }
+
+    header section {
+        padding: 0.5rem 2rem;
+        width: 100%;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header section span {
+        padding: 0 2px;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+}

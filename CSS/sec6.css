@@ -37,4 +37,16 @@
 .section6 span p {
     color: var(--lite);
     font-weight: 300;
-};
+}
+
+
+#links {
+    color: var(--lite);
+    font-weight: 300;
+}
+
+#links:hover {
+    color: black;
+    font-weight: bold;
+}
+
