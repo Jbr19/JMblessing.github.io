@@ -1,0 +1,69 @@
+/***************************
+              Talleres
+    ***************************/
+    .list_talleres {
+        width: 100%;
+        padding: 0rem 3rem;
+        display: flex;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+    
+    .list_talleres section {
+        width: 100%;
+        height: 67vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+    
+    .list_talleres section span {
+        width: 100%;
+        padding: 25px 50px;
+        display: block;
+        text-align: center;
+        box-shadow: 10px 10px 0px 0px var(--rose);
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: var(--white);
+        border-radius: 0px 0px 0px 0px;
+        transition: 0.5s;
+    }
+    
+    .list_talleres section span:hover {
+        background-color: var(--palepink);
+        box-shadow: 15px 15px 0px 0px var(--rose);
+        right: 16%;
+    }
+    
+    .list_talleres section span .title {
+        font-weight: 900 !important;
+        color: var(--black) !important;
+        font-family: 'Pacifico', cursive;
+    }
+    
+    .list_talleres section figure {
+        width: 100%;
+        height: 67vh;
+        position: relative;
+    }
+    
+    .list_talleres section img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .lista {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        color: var(--lite);
+        font-size: 17px;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+
+    .lista:hover {
+        color: var(--black);
+        font-weight: bold;
+    }
