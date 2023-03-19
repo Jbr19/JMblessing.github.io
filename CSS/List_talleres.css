@@ -12,7 +12,6 @@
     .list_talleres section {
         width: 100%;
         height: 67vh;
-        position: relative;
         display: flex;
         align-items: center;
         justify-content: right;
@@ -31,7 +30,7 @@
         transition: 0.5s;
     }
     
-    .list_talleres section span:hover {
+    .list_talleres section span {
         background-color: var(--palepink);
         box-shadow: 15px 15px 0px 0px var(--rose);
         right: 16%;
@@ -46,7 +45,6 @@
     .list_talleres section figure {
         width: 100%;
         height: 67vh;
-        position: relative;
     }
     
     .list_talleres section img {

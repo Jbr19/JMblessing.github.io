@@ -1,22 +1,59 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-    .list_talleres {
-        display: grid;
-        width: 22rem;
-    }
+    
+        
 
-
-
-    .list_talleres section.img_Talleres {
+   .list_talleres section.img_Talleres{
         display: none;
     }
 
-    .list_talleres section.lista_link{
-        padding-top: 1rem;
+
+
+        .list_talleres section{
+        display:flex;
+        align-items:top;
+        height: 38rem;
+        justify-content:center;
+        width:100%;
+        }
+        
+        .list_talleres section span{
+        width: 100%;
+        padding:0.5rem 1rem;
+        display: flex;
+        flex-direction: column;
+        text-align:center;
+        align-items: center;
+        }
+        
+        .list_talleres span:after{
+        display: none;
+        content:"";
+        position:absolute;
+        right:0;
+        top:50%;
+        transform: translate(50%, -50%);
+        width:2px;
+        height:40%;
+        background-color:var(--palepink);
+        }
+        
+        
+        .list_talleres  span p{
+        color:var(--lite);
+        font-weight:300;
+        }
+        
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .list_talleres{
+        padding: 0rem 3rem 3rem;
     }
 
-    .list_talleres section.lista_link span {
-        padding: 6px 12px;
+    .list_talleres section{
+        height: 38rem;
     }
 }
