@@ -1,0 +1,7 @@
+div section.img_taller {
+    display: flex;
+    justify-content: center;
+    height: 43rem;
+    padding: 1rem;
+    background-color: var(--palepink);
+}

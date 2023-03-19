@@ -20,7 +20,7 @@
         
         .list_talleres section span{
         width: 100%;
-        padding:0.5rem 1rem;
+        padding:0.5rem 0rem;
         display: flex;
         flex-direction: column;
         text-align:center;
@@ -54,6 +54,6 @@
     }
 
     .list_talleres section{
-        height: 38rem;
+        height: 44rem;
     }
 }

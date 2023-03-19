@@ -3,7 +3,8 @@
     ***************************/
     .topnav {
         overflow: hidden;
-        background-color: #000;
+        background-image: url(../pics/prueba3.jpg);
+        background-repeat: no-repeat;
     }
     
     .topnav a {
