@@ -2,8 +2,9 @@
               servicios
     ***************************/
     .servicios {
+        display: grid;
+        grid-template-columns: auto;
         width: 100%;
-        display: flex;
         justify-content: center;
         padding-top: 1rem;
     }
@@ -11,7 +12,6 @@
     
     .servicios section span {
         width: 30rem;
-        height: 32rem;
         padding: 16px 16px;
         display: block;
         text-align: center;
